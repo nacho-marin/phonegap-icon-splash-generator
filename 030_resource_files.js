@@ -162,7 +162,18 @@ function copyFiles (arg, rootdir) {
     }, {
         "res/screen/ios/screen-ipad-landscape.png":
             iOSPath + "/Resources/splash/Default-Landscape~ipad.png"
-    } ];
+    }, {
+        "res/screen/ios/screen-iphone-667h-2x.png":
+        iOSPath + "/Resources/splash/Default-667h.png"
+ 
+    }, {
+        "res/screen/ios/screen-iphone-736h-3x.png":
+         iOSPath + "/Resources/splash/Default-736h.png"       
+    }, {
+        "res/screen/ios/screen-iphone-736h-landscape-3x.png":
+        iOSPath + "/Resources/splash/Default-Landscape-736h.png"
+    }
+     ];
      
      
     filestocopy.forEach(function(obj) {

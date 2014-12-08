@@ -76,3 +76,4 @@ $convert -resize 256x256 -extent 750x1334 "$3/res/screen/ios/screen-iphone-667h-
 
 #iphone 6+
 $convert -resize 256x256 -extent 1242x2208 "$3/res/screen/ios/screen-iphone-736h-3x.png"
+$convert -resize 256x256 -extent 2208x1242 "$3/res/screen/ios/screen-iphone-736h-landscape-3x.png"
