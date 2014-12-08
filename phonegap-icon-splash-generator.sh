@@ -70,3 +70,9 @@ $convert -resize 1024x1024 -extent 2048x1536 "$3/res/screen/ios/screen-ipad-land
 $convert -resize 512x512 -extent 640x1136 "$3/res/screen/ios/Default-568h@2x~iphone.png"
 convert "$1" -resize 64x64 "$3/res/screen/webos/screen-64.png"
 $convert -resize 256x256 -extent 480x800 "$3/res/screen/windows-phone/screen-portrait.jpg"
+
+#iphone 6 sizes
+$convert -resize 256x256 -extent 750x1334 "$3/res/screen/ios/screen-iphone-667h-2x.png"
+
+#iphone 6+
+$convert -resize 256x256 -extent 1242x2208 "$3/res/screen/ios/screen-iphone-736h-3x.png"
