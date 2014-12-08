@@ -4,7 +4,7 @@ Generate PhoneGap icon and splash screens. Nacho Marin's fork of original tlvinc
 
 Nacho Marin also added a modified version of Holly Schinsky's after_prepare hook as posted at
 her blog: http://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/
-It has been adapted to collaborate with tlvince's phonegap-icon-splash-generator.sh 
+It has been adapted to collaborate with tlvince's phonegap-icon-splash-generator.sh, including app name detection from config.xml, which is needed as the path where iOS resources need to be copied depends on the application name. 
 Gotta copy 030_resource_files.js to hooks/after_prepare in a cordova project and have tlvince's
 phonegap-icon-splash-generator.sh in the path. The latter requires convert command from imagemagick (npm -g install imagemagick)
 
