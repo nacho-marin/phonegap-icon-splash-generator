@@ -1,6 +1,6 @@
 # PhoneGap Icon Generator
 
-Generate PhoneGap icon and splash screens.
+Generate PhoneGap icon and splash screens. Nacho Marin's fork of original tlvince repo, with some updates from the different other forks. I bet we all should collaborate and maintain a single repo in order to avoid confusion.
 
 ## Usage
 
