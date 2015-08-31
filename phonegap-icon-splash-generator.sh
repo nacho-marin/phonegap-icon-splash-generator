@@ -43,6 +43,7 @@ $convert "$1" -resize 64x64 "$3/res/icon/webos/icon-64.png"
 $convert "$1" -resize 48x48 "$3/res/icon/windows-phone/icon-48.png"
 $convert "$1" -resize 173x173 "$3/res/icon/windows-phone/icon-173-tile.png"
 $convert "$1" -resize 62x62 "$3/res/icon/windows-phone/icon-62-tile.png"
+$convert "$1" -resize 180x180 "$3/res/icon/ios/icon-180.png"
 
 convert="convert $1 -background $2 -gravity center"
 $convert -resize 512x512 -extent 1280x720 "$3/res/screen/android/screen-xhdpi-landscape.png"
