@@ -142,6 +142,9 @@ function copyFiles (arg, rootdir) {
         "res/icon/ios/icon-144.png":
         iOSPath + "/Resources/icons/icon-72@2x.png"
     }, {
+        "res/icon/ios/icon-180.png":
+        iOSPath + "/Resources/icons/icon-60@3x.png"
+    }, {
         "res/screen/ios/screen-iphone-portrait-2x.png":
         iOSPath + "/Resources/splash/Default@2x~iphone.png"
     }, {
