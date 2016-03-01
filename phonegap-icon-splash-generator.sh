@@ -1,6 +1,7 @@
 #!/bin/bash
 # Generate PhoneGap icon and splash screens.
 # Copyright 2013 Tom Vincent <http://tlvince.com/contact>
+#  Improvements by Nacho Marin (nacho@ubiqware.net / nachomp@gmail.com)
 
 usage() { echo "usage: $0 icon colour [dest_dir]"; exit 1; }
 
@@ -34,11 +35,13 @@ $convert "$1" -resize 60x60 "$3/res/icon/ios/icon-60.png"
 $convert "$1" -resize 72x72 "$3/res/icon/ios/icon-72.png"
 $convert "$1" -resize 76x76 "$3/res/icon/ios/icon-76.png"
 $convert "$1" -resize 80x80 "$3/res/icon/ios/icon-80.png"
+$convert "$1" -resize 87x87 "$3/res/icon/ios/icon-87.png"
 $convert "$1" -resize 100x100 "$3/res/icon/ios/icon-100.png"
 $convert "$1" -resize 144x144 "$3/res/icon/ios/icon-144.png"
 $convert "$1" -resize 114x114 "$3/res/icon/ios/icon-114.png"
 $convert "$1" -resize 120x120 "$3/res/icon/ios/icon-120.png"
 $convert "$1" -resize 152x152 "$3/res/icon/ios/icon-152.png"
+$convert "$1" -resize 167x167 "$3/res/icon/ios/icon-167.png"
 $convert "$1" -resize 64x64 "$3/res/icon/webos/icon-64.png"
 $convert "$1" -resize 48x48 "$3/res/icon/windows-phone/icon-48.png"
 $convert "$1" -resize 173x173 "$3/res/icon/windows-phone/icon-173-tile.png"
